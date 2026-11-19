@@ -11,6 +11,7 @@ This pipeline classifies **1,301 stationary F1 pit events** into operational reg
 3. **Process Spread (`iqr_consistency_sec` — $P_{75} - P_{25}$)**
 4. **Elite Undercut Execution Rate (`% of stops <= 2.5s`)**
 5. **Pit Wall SLA Defect Rate (`% of stops > 3.5s`)**
+<img width="935" height="508" alt="image" src="https://github.com/user-attachments/assets/1011bdb8-a5b4-490f-92a6-eaebf9b5ea7f" />
 
 ## 2. Key Operational Findings (1,301 Live OpenF1 Telemetry Records)
 * **The McLaren Speed-vs-Variance Paradox:** **McLaren (`122` stops)** recorded the **single fastest stationary pit stop on the F1 grid (`1.80s`)**, yet ranked **6th overall in median performance (`2.70s` median, `2.98s` mean)** due to high process variance (**`1.08s` IQR**) and a **`19.67%` SLA defect rate (`> 3.5s`)**—nearly triple the defect rate of the grid leaders.
